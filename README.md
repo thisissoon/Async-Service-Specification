@@ -2,6 +2,10 @@
 
 It's important our asynchonous services have a standard communication stratedgy.
 
+## Transports
+
+### `Websockets`
+
 ## Event Payloads
 
 Event payloads should follow the `HAL` principles set out in our [API Specification](https://github.com/thisissoon/API-Specification#responses), containing only the data required for the event. If a consumer requires more data about the resource it can follow the `_link` to that resource.
